@@ -1,0 +1,28 @@
+<!--Navbar-->
+<mdb-navbar SideClass="navbar sticky-top navbar-expand-lg navbar-dark blue darken-4">
+
+    <!-- Navbar brand -->
+    <mdb-navbar-brand><a class="navbar-brand" href="#"><strong>Find</strong>Me</a></mdb-navbar-brand>
+
+    <!-- Collapsible content -->
+    <links>
+
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                <a class="nav-link waves-light" mdbWavesEffect routerLink="/">HOME</a>
+            </li>
+            <li class="nav-item"  [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                <a class="nav-link waves-light" mdbWavesEffect routerLink="/dashboard">MY LOCATION</a>
+            </li>
+            <li class="nav-item"  [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+                <a class="nav-link waves-light" mdbWavesEffect routerLink="/contact">CONTACT</a>
+            </li>
+        </ul>
+        <!-- Links -->
+
+    </links>
+    <!-- Collapsible content -->
+
+</mdb-navbar>
+<!--/.Navbar-->
